@@ -25,6 +25,11 @@
   padding-bottom: 3rem;
 }
 
+.me {
+  width: 10rem;
+  height: auto;
+}
+
 h5 {
   font-family: 'Lucida Bright';
 }
