@@ -30,20 +30,25 @@
   height: auto;
 }
 
-h5 {
+#about h5 {
   font-family: 'Lucida Bright';
 }
 
-h2 {
+h2 h4 h5 {
   font-family: 'Rockwell';
 }
 
-h4 {
-  font-family:'Rockwell';
+.projects {
+  background-color: #e1f6ed;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
 }
 
+.img-portfolio {
+  height: 20rem;
+  width: auto;
+}
 .portfolio {
-  background-color: #F3F3F7;
   padding-top: 2rem;
   padding-bottom: 5rem;
 }
