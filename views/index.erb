@@ -98,13 +98,16 @@
     <div class="small-12 medium-10 medium-centered columns"
     <div class="small-8 small-centered columns">
       <div>
+        <% unless @notification.nil? %>
+        <%= @notification %>
+        <% end %>
         <h1>Let's grab some tea!</h1>
         <hr>
         <p>If you have questions or just want to say "Hi", drop me a message!<br>I'd love to hear from you.</p>
       </div>
     </div>
     <div class="small-12 medium-10 medium-centered columns">
-      <form action="/contact" method="post" class="simple_form fancy-form">
+      <form action="/contact" method="POST" class="simple_form fancy-form">
         <div class="small-12 medium-6 columns">
           <input class="input string required" placeholder="First Name" type="text">
         </div>
@@ -116,7 +119,7 @@
         </div>
         <div class="small-12 columns">
           <input class="input string required" placeholder="What's on your mind?" type="text">
-          <button type="button" class="button">Submit</button>
+          <input type="submit" class="button" value="Submit">
         </div>
       </form>
     </div>
