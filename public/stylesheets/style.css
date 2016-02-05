@@ -59,6 +59,14 @@ h2 h4 h5 {
   padding: 5rem;
 }
 
+.icon-gallery {
+  padding: 0;
+}
+
+.icon img {
+  padding: 2rem .08rem;
+}
+
 .large_shadow {
   background: rgba(0,0,0,.7);
   color: white;
@@ -72,13 +80,4 @@ footer {
   padding-top: 1rem;
   background-color: #003811;
   color: white;
-}
-
-.button {
-  background-color: #006C21;
-}
-
-ul {
-  list-style: none;
-  list-style-type: none;
 }
